@@ -17,3 +17,9 @@ for i, char in enumerate(story):
     start_of_word = -1
 
 answers = {}
+
+for word in words:
+  answer = input("Enter a word for " + word + ": ")
+  answers[word] = answer
+
+print(answers)
